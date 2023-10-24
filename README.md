@@ -83,3 +83,7 @@ SELECT title FROM biblios WHERE title &@~ '笔衟';
 --  花月堂文并筆道有本篇註解
 -- (7 rows)
 ```
+
+## 国書データベース異体字SQL
+
+国書データベースで実際に使用している異体字リストのSQLは[kokusho_itaiji.sql](/kokusho_itaiji.sql)で公開しています。
