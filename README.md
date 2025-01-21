@@ -45,7 +45,7 @@ CREATE INDEX pgroonga_titles_index
    WITH (normalizers='
                 NormalizerNFKC150,
                 NormalizerTable(
-                  "normalized", "${table:pgroonga_synonyms_index}.normalized",
+                  "normalized", "${table:public.pgroonga_synonyms_index}.normalized",
                   "target", "target"
                 )
              ');
