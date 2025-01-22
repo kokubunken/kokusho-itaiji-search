@@ -87,3 +87,15 @@ SELECT title FROM biblios WHERE title &@~ '笔衟';
 ## 国書データベース異体字SQL
 
 国書データベースで実際に使用している異体字リストのSQLは[kokusho_itaiji.sql](/kokusho_itaiji.sql)で公開しています。
+
+## 応用編
+
+複数文字にも異体字割り当てが出来ますので、例えば下記のような対応も可能です。
+
+```sql
+INSERT INTO synonyms VALUES ('かゝみ', 'かかみ');
+INSERT INTO synonyms VALUES ('つゝら', 'つつら');
+INSERT INTO synonyms VALUES ('なゝくさ', 'なつくさ');
+```
+
+検索キーワードが`かゝみ`でも`かかみ`でも双方向に検索可能になります。`つゝら`や`なゝくさ`も同様です。
