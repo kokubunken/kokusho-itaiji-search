@@ -95,7 +95,7 @@ SELECT title FROM biblios WHERE title &@~ '笔衟';
 ```sql
 INSERT INTO synonyms VALUES ('かゝみ', 'かかみ');
 INSERT INTO synonyms VALUES ('つゝら', 'つつら');
-INSERT INTO synonyms VALUES ('なゝくさ', 'なつくさ');
+INSERT INTO synonyms VALUES ('なゝくさ', 'ななくさ');
 ```
 
 検索キーワードが`かゝみ`でも`かかみ`でも双方向に検索可能になります。`つゝら`や`なゝくさ`も同様です。
