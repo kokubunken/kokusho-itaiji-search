@@ -1720,3 +1720,4 @@ INSERT INTO synonyms VALUES ('㫋', '旃');
 INSERT INTO synonyms VALUES ('鋄', '鑁');
 INSERT INTO synonyms VALUES ('㔟', '勢');
 INSERT INTO synonyms VALUES ('ヶ', 'ケ');
+INSERT INTO synonyms VALUES ('附', '付');
