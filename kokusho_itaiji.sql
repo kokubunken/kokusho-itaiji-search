@@ -588,6 +588,7 @@ INSERT INTO synonyms VALUES ('禎', '禎');
 INSERT INTO synonyms VALUES ('諸', '諸');
 INSERT INTO synonyms VALUES ('攷', '考');
 INSERT INTO synonyms VALUES ('謌', '歌');
+INSERT INTO synonyms VALUES ('哥', '歌');
 INSERT INTO synonyms VALUES ('鈔', '抄');
 INSERT INTO synonyms VALUES ('節', '節');
 INSERT INTO synonyms VALUES ('溫', '温');
