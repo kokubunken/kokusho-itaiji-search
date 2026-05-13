@@ -1,6 +1,8 @@
 # 国書データベースの異体字対応事例紹介
 国文研でPGroongaを使い国書データベースの異体字検索を実現した方法を紹介します。
 
+本件の開発を語っている[YouTube動画もあります](https://www.youtube.com/watch?v=sNwBKeyfBGk)。
+
 ## PGroongaのインストール
 [公式ドキュメント](https://pgroonga.github.io/ja/install/)に各プラットフォーム別のインストール方法が記載されておりますので、お手持ちの環境に応じてインストールをお願いします。
 
